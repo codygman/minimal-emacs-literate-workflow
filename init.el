@@ -82,6 +82,8 @@
   (evil-set-initial-state 'org-agenda-mode 'normal)
   (evil-mode 1))
 
+(use-package ob-mongo :ensure t)
+
 (use-package org
   :config
   (setq org-agenda-files '("~/bsab"))
@@ -725,7 +727,6 @@ If the universal prefix argument is used then kill also the window."
   :config
   (load-theme 'doom-one t))
 
-(use-package ob-mongo :ensure t)
 
 (with-eval-after-load "ob-shell"
 
