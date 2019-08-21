@@ -1,0 +1,7 @@
+#+BEGIN_SRC sh
+emacs -Q --load init.el
+#+END_SRC
+
+Current issues:
+
+Ideas:
